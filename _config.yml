@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+{{ site.time | date_to_string: "ordinal", "US" }}
 title: Hi, I’m Stephanie!
 description: Feel free to save this page and stay updated on my latest projects. 
 
