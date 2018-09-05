@@ -1,6 +1,9 @@
-body{
+*{
 	margin: 0;
 	padding: 0;
+}
+
+header{
 	text-align: center;
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url(bridge.jpg);
 	background-size: cover;
@@ -9,16 +12,48 @@ body{
 	font-family: sans-serif;
 }
 
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li{
+	display: inline-block;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover{
+	border: 1px solid white;
+}
+
+.row{
+	max-width: 1200px;
+	margin: auto;
+}
+
 .contact-title{
 	margin-top: 100px;
 	color: #fff;
 	text-transform: uppercase;
-	transition: all 4s ease-in-out;
+	text-align: center;
 }
 
 .contact-title h1{
 	font-size: 32px;
 	line-height: 10px;
+	margin-bottom: 15px;
 }
 
 .contact-title h2{
@@ -27,7 +62,7 @@ body{
 
 form{
 	margin-top: 50px;
-	transition: all 4s ease-in-out;
+	transition: opacity 4s;
 }
 
 .form-control{
