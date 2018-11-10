@@ -1,39 +1,133 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Stephanie Fong</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" type="image/icon" href="favicon.ico"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<html lang="en">
 
-<body>
-	<header>
-		
-		<div class="row">
-			<div class="logo">
-			<img src="">
-			</div>	
-		<ul class="main-nav">
-			<li class="active"><a href=""> HOME </a></li>
-			<li><a href="about.html"> ABOUT </a></li>
-			<li><a href="contact.html"> CONTACT </a></li>
-		</ul>
+  <head>
 
-		</div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Stephanie Fong">
 
-		<div class="hero">
-		<h1>Stephanie Fong</h1>
-		<h2>Welcome to my website! This is still a work in progress and current project for me :)</h2>
+    <title>Stephanie Fong</title>
 
-			<!-- <div class="button">
-				<a href="" class="btn btn-one"> Watch Video </a>
-				<a href="" class="btn btn-two"> Explore More </a>
+    <!-- Bootstrap Core CSS -->
+    <link href="./bootstrap.css" rel="stylesheet">
 
-			</div> -->
-		</div>
+    <!-- Custom Fonts -->
+    <link href="fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="simple-line-icons/simple-line-icons.css" rel="stylesheet">
 
-	</header>
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
 
-</body>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Stephanie Fong</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">hi, i'm stephanie</h1>
+        <h3 class="mb-5">
+          <em>a software engineer from the Bay Area</em>
+        </h3>
+        <a class="btn btn-default btn-xl js-scroll-trigger" href="#about">About Me</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>About Me</h2>
+            <img id="profile" src="profile.jpg" class="rounded-circle" alt="Stephanie Fong">
+            <span id="bio" class="lead mb-5">I'm currently a second year student at UC Berkeley pursuing Computer Science.  Aside from coding, I am interested in project management.  I am an eager, fast learner who loves problem solving with a go-getter mentality.  Outside of tech, I am a coffee enthusiast and explorer of the world.  If you'd like to get in contact with me, please don't hesistate to reach out, below!  </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Contact Me</h2>
+        <a href="mailto:stephanie.fong@berkeley.edu" class="btn btn-xl btn-primary mr-4">Email</a>
+        <a href="tel:1-510-205-3190" id="phone" class="btn btn-xl btn-primary">Phone</a>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=U.C.+Berkeley,+Bancroft+Way,+Berkeley,+CA&amp;aq=0&amp;oq=cal&amp;sll=37.8683814,-122.2605698&amp;ie=UTF8&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+      <br/>
+      <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=U.C.+Berkeley,+Bancroft+Way,+Berkeley,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+      </small>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/stephanieefongg">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/stephanie-f-2483b9100/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/stephaniemfong">
+              <i class*="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Stephanie Fong 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="jquery.easing.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="style.js"></script>
+
+  </body>
+
 </html>
