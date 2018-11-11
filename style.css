@@ -304,7 +304,7 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
+.content-section .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
@@ -317,9 +317,10 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-footer.footer .social-link:hover {
-  background-color: #999ea8;
+.content-section .social-link:hover {
+  /*background-color: #999ea8;*/
   text-decoration: none;
+  zoom: 115%;
 }
 
 a {
