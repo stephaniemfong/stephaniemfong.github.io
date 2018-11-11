@@ -24,11 +24,16 @@ body {
   padding-bottom: 7.5rem;
 }
 
-.content-section-heading h2 {
+.content-section p {
+  text-align: center;
+  display: block;
+}
+
+.content-section-heading h2 { /*Portfolio*/
   font-size: 3rem;
 }
 
-.content-section-heading h3 {
+.content-section-heading h3 { /*Recent Projects*/
   font-size: 1rem;
   text-transform: uppercase;
   padding-bottom: 2.5rem;
@@ -38,6 +43,11 @@ body {
   width: 210px;
   height: 280px;
   float: left;
+  margin-right: 3rem;
+}
+
+.content-section h2 {
+  padding-bottom: 3rem;
 }
 
 .content-section.bio {
@@ -55,21 +65,6 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
-
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 .scroll-to-top {
@@ -248,7 +243,7 @@ h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #999ea8;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -258,6 +253,7 @@ h6 {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
+  text-align: center;
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -293,13 +289,13 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    background-color: #000000;
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
 }
 
@@ -327,7 +323,7 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #999ea8;
 }
 
 a:hover, a:focus, a:active {
@@ -352,8 +348,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #999ea8 !important;
+  border-color: #999ea8 !important;
 }
 
 .btn-dark {
