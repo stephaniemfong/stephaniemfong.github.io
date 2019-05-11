@@ -273,15 +273,15 @@ h6 {
   }
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
+    -webkit-clip-path: inset(10px);
+    clip-path: inset(10px);
   }
   .portfolio-item .caption .caption-content {
     -webkit-transition: opacity 0.25s;
     transition: opacity 0.25s;
+    margin-top: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
