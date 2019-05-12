@@ -22,6 +22,7 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  background-color: #ace7ff
 }
 
 .content-section p {
@@ -29,8 +30,10 @@ body {
   display: block;
 }
 
-.content-section-heading h2 { /*Portfolio*/
+.content-section-heading h2 { /*Recent Projects*/
   font-size: 3rem;
+  color: #fff;
+  padding-bottom: 3rem;
 }
 
 .content-section-heading h3 { /*Recent Projects*/
@@ -44,10 +47,6 @@ body {
   height: 280px;
   float: left;
   margin-right: 3rem;
-}
-
-.content-section h2 {
-  padding-bottom: 3rem;
 }
 
 .content-section.bio {
@@ -100,7 +99,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: #000000;
+  background: #ace7ff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,12 +110,36 @@ h6 {
   color: #fff;
   margin: 0;
   padding: 0;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .32em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ff9d5b; }
 }
 
 .masthead h3 {
   color: #fff;
   margin: 0;
   padding: 0;
+}
+
+.masthead .btn {
+  background-color: #ff9d5b
 }
 
 @media (min-width: 992px) {
@@ -300,8 +323,13 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ff9d5b
+}
+
+.content-section .mb-4 {
+  color: #999ea8;
 }
 
 .content-section .social-link {
@@ -310,7 +338,7 @@ footer.footer {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #000000;
+  background-color: #ff9d5b;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -318,7 +346,6 @@ footer.footer {
 }
 
 .content-section .social-link:hover {
-  /*background-color: #999ea8;*/
   text-decoration: none;
   zoom: 115%;
 }
@@ -364,7 +391,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: black !important;
+  background-color: #fff !important;
 }
 
 .text-primary {
