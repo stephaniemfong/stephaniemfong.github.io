@@ -4,6 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
+ @media only screen 
+ and (min-width : 375px) 
+ and (max-width : 812px) {
+   .masthead {
+     width: 100%;
+     height: auto;
+   }
+ 
+   .content-section {
+     width: 100%;
+     height: auto;
+   }
+ 
+ }
+
 body,
 html {
   width: 100%;
