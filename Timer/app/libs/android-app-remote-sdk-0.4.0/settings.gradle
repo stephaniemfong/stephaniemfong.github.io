@@ -1,2 +1,0 @@
-include ':app-remote-lib'
-include ':demo'

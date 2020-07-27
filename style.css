@@ -7,6 +7,7 @@
  @media (max-width : 600px) {
   .masthead .content-section{
     height: auto;
+    width: 100%;
     text-align: left;
   }
 
@@ -163,6 +164,14 @@ h6 {
   color: #fff;
   margin: 0;
   padding: 0;
+}
+
+#profile {
+  transition: transform .3s;
+}
+
+#profile:hover {
+  transform: scale(1.2);
 }
 
 .service-icon {
