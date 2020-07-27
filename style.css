@@ -7,6 +7,7 @@
  @media (max-width : 600px) {
   .masthead .content-section{
     height: auto;
+    width: 100%;
     text-align: left;
   }
 
